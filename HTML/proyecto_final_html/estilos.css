@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    font-family: Sohne, sans-serif;
+    /* font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+    /* font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    /* font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif; */
+}
+body{
+    font-weight: 500;
+}
+/*<header>*/
+header{
+    background-color:#ffc017 ;
+    height: 533px;
+}
+nav{
+    background-color:#ffc017;
+    display: flex;
+    position:fixed;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 72px;
+    z-index: 1;
+}
+nav .nav-list{
+    margin: 26px 0px 0px 630px;
+}
+figure .img-logo{
+    width: 156px;
+    height: 24px;
+    margin: 23px 0px 6px 100%;
+}
+/*revisar <header> nada más*/
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size:smaller;
+    font-weight: 500;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+hr{
+    border: none;
+    border-top: 1px solid black;
+}
+.btn-start a{
+    color: white;
+    background-color: black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+div .portada-title{
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 100px;
+    font-weight: 500;
+}
+div .portada-descripcion{
+    font-size: 24px;
+    margin: 20px 0px 60px 0px;
+}
+div .start-read{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+    font-size: 20px;
+    padding: 9px 54px 9px 54px;
+    border-radius: 20px;
+}
+header div{
+    position: absolute;
+    margin: 150px 0px 0px 150px;
+}
+/*first part of <main>*/
+main div{
+    margin: 0px 0px 0px 15px;
+}
+main div figure{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px 0px 150px;
+}
+figure .circle-arrow{
+    width: 20px;
+    margin-right: 13px;
+}
+figure p{
+    color: rgb(34, 34, 34);
+    font-size:15px;
+}
+/* hacer el tamaño de la section */
+main div section{
+    display: flex;
+}
+/* hacer el tamaño de un artiulo de la sección */
+main div section article{
+    width: 200px;
+    height: 200px;
+}
+section article h1{
+    color: rgb(223, 222, 222);
+    font-size: 32px;
+}
+main div section article div figure{
+
+}
+/*second part of <main>*/

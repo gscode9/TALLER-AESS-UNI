@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Divertido</title>
+</head>
+
+<body>
+    <style>
+        h1,
+        form {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: pink;
+        }
+
+        form input {
+            border: 2px solid pink;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+        }
+
+        .select {
+            border: 2px solid pink;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+        }
+
+        .boton {
+            background-color: pink;
+            color: white;
+            margin-top: 10px;
+        }
+    </style>
+    <h1>¡Completa el Formulario Divertido!</h1>
+    <form action="">
+
+        <label>DIME TU NOMBRE DE SUPERHÉROE!</label>
+        <input type="text">
+
+        <label for="">¡TU CORREO ELECTRÓNICO SECRETO!</label>
+        <input type="email">
+
+        <label for="">¿CUÁL ES TU NÚMERO DE TÉLEFONO BATISEÑAL?</label>
+        <input type="number">
+
+        <label for="">ELIGE TU GÉNERO HEROICO</label>
+        <select class="select" name="" id="">
+            <option value="">Mujer</option>
+            <option value="">Hombre</option>
+        </select>
+
+        <label for="">¿QUIERES RECIBIR BOLETINES INFORMATIVOS CON NOTICIAS HEROICAS🦸</label>
+        <input class="boton" type="submit" value="¡Enviar el formulario y salvar el mundo!">
+    </form>
+</body>
+
+</html>
